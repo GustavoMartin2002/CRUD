@@ -1,0 +1,15 @@
+@keyframes myAnim {
+	0% {
+		pointer-events: none;
+		opacity: 0;
+		transform: translateY(250px);
+		
+	}
+
+	100% {
+		pointer-events: none;
+		opacity: 1;
+		transform: translateY(0);
+		
+	}
+}

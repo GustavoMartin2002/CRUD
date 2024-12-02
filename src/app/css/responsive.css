@@ -1,0 +1,127 @@
+/* responsividade */
+
+@media(max-width: 1023px){
+    /* page Home */
+    #home main .d-text {
+        padding: 20px;
+        margin-top: 0;
+        margin: auto;
+    }
+
+    /* component Header */
+    #header .icon {
+        position: initial;
+        width: 0;
+    }
+
+    #header h1{
+        font-size: 1.8rem;
+    }
+
+    /* component AsidePage */
+    #aside {
+        position: absolute;
+    }
+
+    /* component ListaUsuarios */
+    #listaUsuarios {
+        margin: auto;
+    }
+
+    #listaUsuarios button {
+        position: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #listaUsuarios .d-input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #listaUsuarios .d-lista {
+        width: 90%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* component ItemLista*/
+    #itemLista {
+        padding: 25px;
+    }
+
+    #itemLista span {
+        font-size: 0.7rem;
+    }
+
+    /* component Atualizar, Deletar */
+    #atualizar  h2,
+    #deletar    h2 {
+        font-size: medium;
+    }
+
+    #atualizar  .d-inputButton,
+    #deletar    .d-inputButton {
+        flex-direction: column;
+        padding-inline: 10px;
+    }
+
+    #atualizar  .d-inputButton input,
+    #deletar    .d-inputButton input {
+        width: 100%;     
+    }
+
+    #atualizar  .d-inputButton button,
+    #deletar    .d-inputButton button {
+        width: 200px;
+        margin: auto;
+    }
+
+    /* component ModalUpdate */
+    .modal-content {
+        width: 90%;
+        font-size: small;
+    }
+
+    .modal-content form {
+        padding: 0;
+    }
+
+    .modal-content form label {
+        font-size: small;
+    }
+
+    .modal-content form input {
+        padding: 0.35rem;
+        padding-inline-start: 0.50rem;
+    }
+
+    .modal-content form input.nome,
+    .modal-content form input.email {
+        width: 180px;
+    }
+
+    .modal-content form input.telefone {
+        width: 130px;
+    }
+
+    .modal-content form input.nascimento {
+        width: 130px;
+    }
+
+    /* component ModalDeletar */
+    .modal-content .d-text {
+        padding: 0;
+    }
+
+    .modal-content h5 {
+        font-size: small;
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "/api/usuario/get/route": "app/api/usuario/get/route.js",
+  "/page": "app/page.js",
+  "/cadastrar/page": "app/cadastrar/page.js",
+  "/atualizar/page": "app/atualizar/page.js",
+  "/deletar/page": "app/deletar/page.js",
+  "/lista_usuarios/page": "app/lista_usuarios/page.js"
+}
